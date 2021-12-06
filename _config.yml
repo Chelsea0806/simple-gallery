@@ -22,14 +22,15 @@ title: Simple Gallery
 email: hao.zeng@kcl.ac.uk
 description: >- # this means to ignore newlines until "baseurl:"
   Simple gallery featuring images from Wikipedia.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/Chelsea" # the subpath of your site, e.g. /blog
+url: "http://simple-gallery-Chelsea.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 plugins:
   - jekyll-feed
 collections:
-  - exhibits
+  exhibits:
+    output: true
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

@@ -3,16 +3,24 @@
 
 <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="{{ site.baseurl }}/style.css">
     <title>{{ page.title }}</title>
 </head>
 <body>
-    <div class="container">
-        <nav>
-            <a href="{{ site.baseur }}">Gallery index</a>
-            <a href="{{ site.baseur }}/about">About gallery</a>
-        </nav>
-    </div>
-    <div class="container">
-        {{ content }}
+    <div id = "wrapper">
+        <div id ="header">
+            <nav>
+                <a href="{{ site.baseurl }}/">Gallery</a>
+                <a href="{{ site.baseurl }}/creators">Creators</a>
+                <a href="{{ site.baseurl }}/about">About</a>
+                <a href="{{ site.baseurl }}/search">Search</a>
+            </nav>
+        </div>
+        <div id="content">
+            {{ content }}
+        </div>
+        <div id = "footer">
+            <p>Created with <a href = "https://jekyllrb.com/">Jekyll</a> by <a href = "https://github.com/Chelsea0806?tab=repositories ">Chelsea</a> in 2021</p>
+        </div>
     </div>
 </body>
