@@ -23,7 +23,7 @@ email: hao.zeng@kcl.ac.uk
 description: >- # this means to ignore newlines until "baseurl:"
   Simple gallery featuring images from Wikipedia.
 baseurl: "/Chelsea" # the subpath of your site, e.g. /blog
-url: "http://simple-gallery-Chelsea.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://simple-gallery-1.netlify.app" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 plugins:
